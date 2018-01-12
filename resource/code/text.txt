@@ -1,0 +1,13 @@
+		// draw the FPS panel
+		String fpsText = Float.toString(fps);
+		glBindTexture(GL_TEXTURE_2D, 0);
+		glEnable(GL_BLEND);
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+		glWindowPos2i(Display.getWidth(), Display.getHeight());
+		GL11.glPixelTransferf(GL11.GL_RED_BIAS, 1.0f);
+		GL11.glPixelTransferf(GL11.GL_GREEN_BIAS, 1.0f);
+		GL11.glPixelTransferf(GL11.GL_BLUE_BIAS, 1.0f);
+		font.drawText(fpsText, 2, Font.ALIGN_RIGHT, Font.ALIGN_TOP);
+		GL11.glPixelTransferf(GL11.GL_RED_BIAS, 0.0f);
+		GL11.glPixelTransferf(GL11.GL_GREEN_BIAS, 0.0f);
+		GL11.glPixelTransferf(GL11.GL_BLUE_BIAS, 0.0f);
