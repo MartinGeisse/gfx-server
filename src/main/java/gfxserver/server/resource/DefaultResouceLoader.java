@@ -1,12 +1,12 @@
 /**
- * Copyright (c) 2013 Shopgate GmbH
+ * Copyright (c) 2018 Martin Geisse
+ * This file is distributed under the terms of the MIT license.
  */
+package gfxserver.server.resource;
 
-package gfxserver.resource;
-
-import gfxserver.gfx.FixedWidthFont;
-import gfxserver.gfx.Font;
-import gfxserver.gfx.Texture;
+import gfxserver.server.gfx.FixedWidthFont;
+import gfxserver.server.gfx.Font;
+import gfxserver.server.gfx.Texture;
 
 import java.awt.image.BufferedImage;
 import java.io.File;

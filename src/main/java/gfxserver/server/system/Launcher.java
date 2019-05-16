@@ -1,4 +1,8 @@
-package gfxserver.system;
+/**
+ * Copyright (c) 2018 Martin Geisse
+ * This file is distributed under the terms of the MIT license.
+ */
+package gfxserver.server.system;
 
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
